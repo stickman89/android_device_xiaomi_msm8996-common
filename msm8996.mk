@@ -380,6 +380,13 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# RIL
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
